@@ -58,7 +58,3 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000). Use Postman to call the API endpoint above.
 
-## Notes
-
-- The current storage implementation includes a mock upload path so development works without cloud credentials.
-- Wire a real GCS uploader in `lib/storage/google-file-store.ts` when ready.
