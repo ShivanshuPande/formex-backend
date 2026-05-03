@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
 
-/** Allow this route to run up to 5 minutes on supported hosts (e.g. Vercel). */
 export const maxDuration = 300;
 
 const PROCESSING_DELAY_MS = 3 * 60 * 1000;
